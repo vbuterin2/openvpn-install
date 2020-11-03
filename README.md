@@ -17,6 +17,30 @@ First, get the script and make it executable:
 ```bash
 curl -O https://raw.githubusercontent.com/angristan/openvpn-install/master/openvpn-install.sh
 chmod +x openvpn-install.sh
+sed -i 's/10.8.0.0/10.9.0.0/g' openvpn-install.sh
+sed -i 's/10.8.0.1/10.9.0.1/g' openvpn-install.sh
+```
+
+```bash
+curl -O https://raw.githubusercontent.com/angristan/openvpn-install/master/openvpn-install.sh
+chmod +x openvpn-install.sh
+sed -i 's/10.8.0.0/10.10.0.0/g' openvpn-install.sh
+sed -i 's/10.8.0.1/10.10.0.1/g' openvpn-install.sh
+```
+
+```bash
+curl -O https://raw.githubusercontent.com/angristan/openvpn-install/master/openvpn-install.sh
+chmod +x openvpn-install.sh
+sed -i 's/10.8.0.0/10.11.0.0/g' openvpn-install.sh
+sed -i 's/10.8.0.1/10.11.0.1/g' openvpn-install.sh
+```
+
+
+```bash
+curl -O https://raw.githubusercontent.com/angristan/openvpn-install/master/openvpn-install.sh
+chmod +x openvpn-install.sh
+sed -i 's/10.8.0.0/10.12.0.0/g' openvpn-install.sh
+sed -i 's/10.8.0.1/10.12.0.1/g' openvpn-install.sh
 ```
 
 Then run it:
